@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Encriptador{
+    display: flex;    
+    align-items: center;
+    padding: 2% 5%;
+    justify-content: space-between;
+}
+.area_input_encriptador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4em o;
+    gap: 2em;
+}
+.color{
+ background-color: blueviolet;
+}
+.area_input{
+    width: 600px;
+    height: 400px;
+    background-color: aliceblue;
+}
+.btns_encriptador{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.btn{
+    width: 10em;
+    height: 2em;
+    border-radius: 0.5em;
+}
+.area_copiar{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #22D4FD;
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 400px;
+    gap: 10em;
+    align-items: center;
+}
+img{
+    margin-top: 2em;
+}
+p{
+    text-align: center;
+}
