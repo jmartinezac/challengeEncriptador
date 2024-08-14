@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header"></header>
+    <main class="Encriptador">
+      <section class="area_input_encriptador">
+        <h1>Encriptador</h1>
+        <textarea name="" class="area_input" id="text_input"></textarea>
+        <div class="btns_encriptador">
+          <button class="btn" onclick="encriptarTexto()">Encriptar</button>
+          <button class="btn" onclick="DesencriptarTexto()">
+            Desencriptar
+          </button>
+        </div>
+      </section>
+      <div class="area_copiar">
+        <img src="./Muñeco Encriptador.png" alt="Foto Encritador" />
+        <p id="texto_encriptado">
+          Aqui va el texto despues de encriptar o desencriptar
+        </p>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>Desarrollado por jmartinezacⓇ</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
